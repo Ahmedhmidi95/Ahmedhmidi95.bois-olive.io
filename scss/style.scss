@@ -273,6 +273,14 @@ a {
 			position: relative;
 			top: 0;
 			transition: .3s all ease;
+
+			width: 100%; // Use 100% width to make it responsive
+			height: 200px; // Adjust this value as needed
+	
+			// Use object-fit to maintain the aspect ratio
+			object-fit: cover; 
+
+			background-color: #dce5e4;
 		}
 		h3 {
 			font-weight: 600;
